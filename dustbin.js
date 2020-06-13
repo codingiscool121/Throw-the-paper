@@ -6,7 +6,7 @@ class dustbin{
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("Images/trialtrash.png");
+        this.image = loadImage("trialtrash.png");
         World.add(world, this.body);
       }
       display(){
